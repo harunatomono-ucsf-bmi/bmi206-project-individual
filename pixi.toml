@@ -1,0 +1,18 @@
+[workspace]
+authors = ["harunatomono <114322187+harunatomono@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "project_microbial-metabolism_individual"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.10,<3.15"
+ipykernel = ">=7.4.0,<8"
+jupyterlab = ">=4.6.6,<5"
+pandas = ">=2.3.3,<3"
+numpy = ">=2.5.5,<3"
+scipy = ">=1.18.1,<2"
+cobra = ">=0.32.1,<0.33"
+openpyxl = ">=3.1.5,<4"
